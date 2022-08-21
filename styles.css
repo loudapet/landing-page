@@ -1,20 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-* {
+body {
     font-family: "Roboto", Verdana, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header,
 .hero,
 .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header,
+.hero,
+.information,
+.quote,
+.call-to-action,
+.footer {
+    padding: 1% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    justify-content: space-between;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: 600;
     color: #F9FAF8;
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
 }
 
 a,
@@ -22,16 +47,47 @@ a,
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    margin: 0;
+}
+
+.hero {
+    flex: 1 1 0;
+    padding: 10%;
+    gap: 20px;
+}
+
+.hero-text,
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    gap: 5px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 124, 124);
+    margin: 0;
+    height: 100%;
 }
 
 h1 {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
 }
 
 button {
     background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 8px 36px;
+    border: none;
+    margin-top: 5px;
 }
 
 h2 {
