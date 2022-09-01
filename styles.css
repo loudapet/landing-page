@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
 
 body {
     font-family: "Roboto", Verdana, Tahoma, sans-serif;
@@ -14,18 +14,9 @@ body {
     color: #F9FAF8;
 }
 
-.header,
-.hero,
-.quote,
-.call-to-action,
-.footer {
-    padding: 0rem 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .header {
+    display: flex;
     justify-content: space-between;
     padding: 1rem 10rem 0rem 10rem;
 }
@@ -78,7 +69,7 @@ a,
 
 h1 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 900;
     color: #F9FAF8;
     margin: 0;
 }
@@ -108,7 +99,7 @@ h2 {
     height: 6rem;
     justify-content: center;
     align-items: center;
-    font-weight: 800;
+    font-weight: 900;
     color: #1F2937;
     display: flex;
     text-align: center;
@@ -157,18 +148,26 @@ h2 {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
-    padding: 6rem 10rem 6rem 10rem;
+    padding: 6rem 17rem 6rem 17rem;
     flex-direction: column;
-    align-items: center;
+    display: flex;
     justify-content: center;
 }
 
 .quote-text {
-    
+    margin: 0;
 }
 
 .quote-author {
     font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    font-style: normal;
+    text-align: end;
+    box-sizing: border-box;
+    margin-right: 2rem;
+    margin-top: 1rem;
+
 }
 
 
